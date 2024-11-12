@@ -21,7 +21,7 @@ const nextApp = next({
   dev,
   dir: path.join(__dirname, "./client"),
 });
-app.use(express.static(path.join(__dirname, "client", "public")));
+// app.use(express.static(path.join(__dirname, "client", "public")));
 const handle = nextApp.getRequestHandler();
 app.use(
   cors({
