@@ -44,5 +44,5 @@ app.listen(PORT, () => {
   nextApp.prepare().then(() => {
     console.log(`Server running on port ${PORT}`);
   });
-  // console.log(`Server running on port ${PORT}`);
+
 });
