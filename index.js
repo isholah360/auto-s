@@ -19,7 +19,7 @@ const app = express();
 const dev = process.env.NODE_ENV !== "production";
 const nextApp = next({
   dev,
-  dir: path.join(__dirname, "./client"),
+  dir: path.join(__dirname, "client"),
 });
 // app.use(express.static(path.join(__dirname, "client", "public")));
 const handle = nextApp.getRequestHandler();
